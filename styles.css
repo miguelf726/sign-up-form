@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+
+.img-container {
+    flex-grow: 1;
+}
+
+.img-container > img {
+    width: 100%;
+}
+
+.form-container {
+    flex-grow: 2.5;
+}
